@@ -29,6 +29,13 @@
     font-size: 1.25rem;
     font-weight: 600;
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 120px;
+}
 
 /* navbar related styles */
 .navbar{
@@ -66,6 +73,28 @@
 }
 .banner-img{
     width: 100%;
+}
+
+/* team section */
+.teams{
+    align-items: center;
+    
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.feater-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.p3{
+    color: #FF900E;
+}
+.featers{
+    margin-left: 73px;
+    max-width: 537px;
 }
 
 /* responsive media query */
